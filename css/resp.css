@@ -1,0 +1,289 @@
+@media (max-width: 1200px) {
+  .artists-title {
+    display: block;
+  }
+  .artists-top {
+    display: none;
+  }
+  .artists-list {
+    margin-top: 50px;
+  }
+  .footer .container {
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  .footer-r {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (max-width: 1100px) {
+  .info {
+    background-image: url(../images/roadmapbg.png), url(../images/roadmapbg.png), url(../images/roadmapbg.png);
+    background-repeat: no-repeat;
+    background-size: 45%;
+    background-position: top left, center right, bottom left;
+  }
+  .info .container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    gap: 45px;
+  }
+  .discord {
+    background-size: 50%;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .hero {
+    background-size: 70%;
+  }
+  .artists-list {
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: start;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+  }
+  .story-container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
+  .questions .container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    gap: 50px;
+  }
+  .questions-title {
+    font-size: 28px;
+    margin-inline: auto;
+  }
+  .questions-l img {
+    width: 40vw;
+  }
+  .questions-r {
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+  }
+  .team-title {
+    display: block;
+  }
+  .team-top_list {
+    display: none;
+  }
+}
+@media screen and (max-width: 768px) {
+  .mobile-menu {
+    display: block;
+  }
+  .nav {
+    display: none;
+  }
+  .header-l {
+    display: none;
+  }
+  .hero {
+    background-position: bottom;
+    background-size: 80%;
+  }
+  .info {
+    background-size: 60%;
+  }
+  .artists-title {
+    font-size: 52px;
+  }
+  .artists-list {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .story-r {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .roadmap {
+    padding-top: 198px;
+  }
+  .questions-l img {
+    width: 60vw;
+  }
+  .discord {
+    background-size: 70%;
+  }
+  .footer .container {
+    gap: 50px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    text-align: center;
+  }
+  .footer-r {
+    gap: 50px;
+  }
+}
+@media (max-width: 600px) {
+  .roadmap {
+    background-size: contain, 65%, 65%, 65%;
+  }
+  .roadmap-card_top {
+    padding: 12px 12px 14px 6px;
+  }
+  .roadmap-card_top .num {
+    font-size: 22px;
+  }
+  .roadmap-card_top-r p {
+    font-size: 8px;
+  }
+  .roadmap-card_top-r h3 {
+    font-size: 12px;
+    width: 100%;
+  }
+  .roadmap-card_bottom {
+    padding: 30px 8px;
+    gap: 44px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+  .roadmap-card_bottom-l-top {
+    margin-bottom: 12px;
+    padding-left: 22px;
+  }
+  .roadmap-card_bottom ul li p {
+    font-family: "Inter", sans-serif;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 2.9;
+  }
+  .roadmap-card_bottom ul .sdfsdfgdsfdfsg {
+    font-size: 12px;
+  }
+  .roadmap-card_bottom ul .wqeqweqw {
+    width: 100%;
+    max-width: 260px;
+  }
+  .roadmap-card_bottom .johgfg {
+    color: #FFFFFF;
+    font-family: "Inter", sans-serif;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 2.9;
+  }
+  .roadmap-card_bottom .ewqqeqwqweqwqweqw {
+    color: #FFFFFF;
+    font-family: "Inter", sans-serif;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 2.3;
+    width: 100%;
+    max-width: 298px;
+  }
+  .partners .container {
+    margin-inline: auto;
+    padding-left: 15px;
+  }
+  .partners-list li img {
+    width: 75vw;
+  }
+  .questions-l img {
+    width: 80vw;
+  }
+  .team-title {
+    font-size: 52px;
+  }
+  .discord-title {
+    font-size: 42px;
+  }
+  .discord-lorem {
+    font-size: 14px;
+  }
+  .footer-r {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .footer .header-l_icons {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+@media (max-width: 465px) {
+  .hero-title {
+    font-size: 37px;
+  }
+  .hero-text {
+    font-size: 14px;
+  }
+  .info {
+    background-size: 80%;
+  }
+  .info-l h2 {
+    width: 80vw;
+    margin-inline: auto;
+    font-size: 29px;
+  }
+  .info-l img {
+    width: 80vw;
+  }
+  .info-r_top {
+    font-size: 18px;
+  }
+  .info-r-text {
+    font-size: 14px;
+  }
+  .story-title {
+    font-size: 32px;
+  }
+  .story-title span {
+    font-size: 31px;
+  }
+  .story-r {
+    padding: 30px 42px 38px 30px;
+  }
+  .story-r_text-top {
+    font-size: 18px;
+  }
+  .story-r-item p {
+    font-size: 14px;
+  }
+  .team-item img {
+    width: 80vw;
+  }
+}/*# sourceMappingURL=resp.css.map */

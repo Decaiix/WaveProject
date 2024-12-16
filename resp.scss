@@ -1,0 +1,300 @@
+@import './variables.scss';
+@media (max-width:1200px){
+    .artists{
+        &-title{
+            display: block;
+        }
+        &-top{
+            display: none;
+        }
+        &-list{
+            margin-top: 50px;
+        }
+    }
+    .footer{
+        .container{
+            justify-content: space-around;
+        }
+        &-r{
+            display: grid;
+            grid-template-columns: repeat(2,1fr);
+        }
+    }
+}
+@media (max-width:1100px){
+    .info{
+        background-image: url(../images/roadmapbg.png),url(../images/roadmapbg.png),url(../images/roadmapbg.png);
+        background-repeat: no-repeat;
+        background-size: 45%;
+        background-position: top left, center right,bottom left;
+        .container{
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap:45px;
+        }
+    }
+    .discord{
+        background-size:50%;
+    }
+}
+@media screen and (max-width:1024px){
+    .hero{
+        background-size: 70%;
+    }
+    .artists{
+        &-list{
+            justify-content: start;
+            width:fit-content;
+        }
+    }
+    .story{
+        &-container{
+            flex-direction: column;
+            align-items: flex-start;
+        }
+    }
+    .questions{
+        .container{
+            flex-direction: column;
+            align-items: center;
+            gap: 50px;
+        }
+        &-title{
+            font-size: 28px;
+            margin-inline: auto;
+        }
+        &-l{
+            img{
+                width: 40vw;
+            }
+        }
+        &-r{
+            width: fit-content;
+        }
+    }
+    .team{
+        &-title{
+            display: block;
+        }
+        &-top_list{
+            display: none;
+        }
+    }
+}
+@media screen and (max-width:768px){
+    .mobile-menu{
+        display: block;
+    }
+    .nav{
+        display: none;
+    }
+    .header-l{
+        display: none;
+    }
+    .hero{
+        background-position: bottom;
+        background-size: 80%;
+    }
+    .info{
+        background-size: 60%;
+    }
+    .artists{
+        &-title{
+            font-size: 52px;
+        }
+        &-list{
+            justify-content: center;
+        }
+    }
+    .story{
+        &-r{
+        flex-direction: column;
+        }
+    }
+    .roadmap{
+        padding-top: 198px;
+    }
+    .questions{
+        &-l{
+            img{
+                width: 60vw;
+            }
+        }
+    }
+    .discord{
+        background-size:70%;
+    }
+    .footer{
+        .container{
+            gap: 50px;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+        }
+        &-r{
+            gap: 50px;
+        }
+    }
+}
+@media (max-width:600px){
+    .roadmap{
+        background-size: contain,65%,65%,65%;
+        &-card_top{
+            padding: 12px 12px 14px 6px;
+            .num{
+                font-size: 22px;
+                }
+                &-r{
+                    p{
+                font-size: 8px;
+                    }
+                    h3{
+                    font-size: 12px;
+                    width: 100%;
+                    }
+                }
+        }
+        &-card_bottom{
+            padding: 30px 8px;
+            gap: 44px;
+            flex-direction: column-reverse;
+            &-l-top{
+                margin-bottom: 12px;
+                padding-left: 22px;
+            }
+            ul{
+                li p{
+                    font-family: "Inter", sans-serif;
+                    font-size: 10px;
+                    font-weight: 400;
+                    line-height: 2.9;
+                }
+                .sdfsdfgdsfdfsg{
+                    font-size: 12px;
+                }
+                .wqeqweqw{
+                    width: 100%;
+                    max-width: 260px;
+                }
+            }
+            .johgfg{
+                color:$text-whitecol;
+                font-family: "Inter", sans-serif;
+                font-size: 10px;
+                font-weight: 400;
+                line-height: 2.9;
+            }
+            .ewqqeqwqweqwqweqw{
+                color: $text-whitecol;
+                font-family: "Inter", sans-serif;
+                font-size: 10px;
+                font-weight: 400;
+                line-height: 2.3;
+                width: 100%;
+                max-width: 298px;
+            }
+        }
+    }
+    .partners{
+        .container{
+            margin-inline:auto;
+            padding-left:15px;
+        }
+        &-list{
+            li{
+                img{
+                    width: 75vw;
+                }
+            }
+        }
+    }
+    .questions{
+        &-l{
+            img{
+                width: 80vw;
+            }
+        }
+    }
+    .team{
+        &-title{
+            font-size: 52px;
+        }
+    }
+    .discord{
+        &-title{
+            font-size: 42px;
+        }
+        &-lorem{
+            font-size: 14px;
+        }
+    }
+    .footer{
+        &-r{
+            display: flex;
+            flex-direction: column;
+        }
+        .header-l_icons{
+            align-items: center;
+            justify-content: center;
+        }
+    }
+}
+@media (max-width:465px){
+    .hero{
+        &-title{
+            font-size: 37px;
+        }
+        &-text{
+            font-size: 14px;
+        }
+    }
+    .info{
+        background-size: 80%;
+        &-l{
+            h2{
+                width: 80vw;
+                margin-inline: auto;
+                font-size: 29px;
+            }
+            img{
+                width: 80vw;
+            }
+        }
+        &-r{
+            &_top{
+                font-size: 18px;
+            }
+            &-text{
+                font-size: 14px;
+            }
+        }
+    }
+    .story{
+        &-title{
+            font-size: 32px;
+            span{
+                font-size: 31px;
+            }
+        }
+        &-r{
+            padding: 30px 42px 38px 30px;
+            &_text-top{
+                font-size: 18px;
+            }
+            &-item{
+                p{
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+    .team{
+        &-item{
+            img{
+                width: 80vw;
+            }
+        }
+    }
+}

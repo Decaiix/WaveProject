@@ -21,6 +21,8 @@ h1, h2, h3, h4, h5, h6, p {
 
 img {
   display: block;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 a {
@@ -1255,7 +1257,7 @@ body {
   }
   .hero {
     background-position: bottom;
-    background-size: 80%;
+    background-size: cover;
   }
   .info {
     background-size: 60%;
